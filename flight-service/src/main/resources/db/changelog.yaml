@@ -1,0 +1,255 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: madi
+      changes:
+        - createTable:
+            tableName: role
+            columns:
+              - column:
+                  name: id
+                  type: int
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: code
+                  type: varchar(256)
+                  constraints:
+                    nullable: false
+                    unique: true
+
+  - changeSet:
+      id: 2
+      author: madi
+      changes:
+        - createTable:
+            tableName: user
+            columns:
+              - column:
+                  name: id
+                  type: int
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: username
+                  type: varchar(256)
+                  constraints:
+                    nullable: false
+                    unique: true
+              - column:
+                  name: password
+                  type: varchar(256)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: roleId
+                  type: int
+                  constraints:
+                    nullable: false
+                    foreignKeyName: fk_user_role
+                    references: role(id)
+
+  - changeSet:
+      id: 3
+      author: madi
+      changes:
+        - insert:
+            tableName: role
+            columns:
+              - column:
+                  name: code
+                  value: "MODERATOR"
+      runOnChange: false
+
+  - changeSet:
+      id: 4
+      author: madi
+      changes:
+        - insert:
+            tableName: role
+            columns:
+              - column:
+                  name: code
+                  value: "USER"
+      runOnChange: false
+
+  - changeSet:
+      id: 5
+      author: madi
+      changes:
+        - createTable:
+            tableName: flight
+            columns:
+              - column:
+                  name: id
+                  type: int
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: origin
+                  type: varchar(256)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: destination
+                  type: varchar(256)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: departure
+                  type: timestamp with time zone
+                  constraints:
+                    nullable: false
+              - column:
+                  name: arrival
+                  type: timestamp with time zone
+                  constraints:
+                    nullable: false
+              - column:
+                  name: status
+                  type: varchar(50)
+                  constraints:
+                    nullable: false
+                    checkConstraint: "status IN ('InTime', 'Delayed', 'Cancelled')"
+
+  - changeSet:
+      id: 6
+      author: madi
+      changes:
+        - insert:
+            tableName: flight
+            columns:
+              - column:
+                  name: origin
+                  value: "New York"
+              - column:
+                  name: destination
+                  value: "Los Angeles"
+              - column:
+                  name: departure
+                  value: "2023-10-20T08:00:00Z"
+              - column:
+                  name: arrival
+                  value: "2023-10-20T11:00:00Z"
+              - column:
+                  name: status
+                  value: "InTime"
+
+  - changeSet:
+      id: 7
+      author: madi
+      changes:
+        - insert:
+            tableName: flight
+            columns:
+              - column:
+                  name: origin
+                  value: "Los Angeles"
+              - column:
+                  name: destination
+                  value: "Chicago"
+              - column:
+                  name: departure
+                  value: "2023-10-21T09:00:00Z"
+              - column:
+                  name: arrival
+                  value: "2023-10-21T11:30:00Z"
+              - column:
+                  name: status
+                  value: "Delayed"
+
+  - changeSet:
+      id: 8
+      author: madi
+      changes:
+        - insert:
+            tableName: flight
+            columns:
+              - column:
+                  name: origin
+                  value: "Chicago"
+              - column:
+                  name: destination
+                  value: "Miami"
+              - column:
+                  name: departure
+                  value: "2023-10-22T10:30:00Z"
+              - column:
+                  name: arrival
+                  value: "2023-10-22T13:15:00Z"
+              - column:
+                  name: status
+                  value: "InTime"
+
+  - changeSet:
+      id: 9
+      author: madi
+      changes:
+        - insert:
+            tableName: flight
+            columns:
+              - column:
+                  name: origin
+                  value: "Miami"
+              - column:
+                  name: destination
+                  value: "Dallas"
+              - column:
+                  name: departure
+                  value: "2023-10-23T08:30:00Z"
+              - column:
+                  name: arrival
+                  value: "2023-10-23T10:45:00Z"
+              - column:
+                  name: status
+                  value: "InTime"
+
+  - changeSet:
+      id: 10
+      author: madi
+      changes:
+        - insert:
+            tableName: flight
+            columns:
+              - column:
+                  name: origin
+                  value: "Dallas"
+              - column:
+                  name: destination
+                  value: "Denver"
+              - column:
+                  name: departure
+                  value: "2023-10-24T11:15:00Z"
+              - column:
+                  name: arrival
+                  value: "2023-10-24T12:45:00Z"
+              - column:
+                  name: status
+                  value: "Cancelled"
+
+  #If you need to create Moderator-user please encrypt pass using bcrypt. Don't do like this.
+  - changeSet:
+      id: 11
+      author: madi
+      changes:
+        - insert:
+            tableName: user
+            columns:
+              - column:
+                  name: username
+                  value: "Admin"
+              - column:
+                  name: password
+                  value: "Admin7&"
+              - column:
+                  name: roleId
+                  value: 1
+      runOnChange: false
+
+

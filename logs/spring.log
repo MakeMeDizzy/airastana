@@ -1,0 +1,416 @@
+2023-10-20 15:25:19.661  INFO 29461 --- [main] airastana.test.task.FlightApplication    : Starting FlightApplication using Java 17.0.2 on MacBook-Pro-9.local with PID 29461 (/Users/madikenze/IdeaProjects/airastana/flight-service/target/classes started by madikenze in /Users/madikenze/IdeaProjects/airastana)
+2023-10-20 15:25:19.664  INFO 29461 --- [main] airastana.test.task.FlightApplication    : No active profile set, falling back to default profiles: default
+2023-10-20 15:25:20.641  INFO 29461 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-10-20 15:25:20.729  INFO 29461 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 3 JDBC repository interfaces.
+2023-10-20 15:25:21.399  INFO 29461 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-20 15:25:21.407  INFO 29461 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-20 15:25:21.408  INFO 29461 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2023-10-20 15:25:21.537  INFO 29461 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-20 15:25:21.539  INFO 29461 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1786 ms
+2023-10-20 15:25:22.085  INFO 29461 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-20 15:25:22.148  INFO 29461 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-20 15:25:22.402  INFO 29461 --- [main] liquibase.database                       : Set default schema name to public
+2023-10-20 15:25:22.505  INFO 29461 --- [main] liquibase.lockservice                    : Successfully acquired change log lock
+2023-10-20 15:25:22.933  INFO 29461 --- [main] liquibase.changelog                      : Reading from public.databasechangelog
+2023-10-20 15:25:23.047  INFO 29461 --- [main] liquibase.lockservice                    : Successfully released change log lock
+2023-10-20 15:25:23.704  INFO 29461 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3bdbf8d3, org.springframework.security.web.context.SecurityContextPersistenceFilter@4449b273, org.springframework.security.web.header.HeaderWriterFilter@1dfe5dd1, org.springframework.security.web.authentication.logout.LogoutFilter@33eab2e8, airastana.test.task.auth.JwtAuthTokenFilter@318e3942, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1d9bd1d6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3b66ac74, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@f2becb2, org.springframework.security.web.session.SessionManagementFilter@1592e540, org.springframework.security.web.access.ExceptionTranslationFilter@93f15f6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4cc89246]
+2023-10-20 15:25:25.128  INFO 29461 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 15:25:25.144  INFO 29461 --- [main] airastana.test.task.FlightApplication    : Started FlightApplication in 5.894 seconds (JVM running for 6.687)
+2023-10-20 15:26:34.527  INFO 29461 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-20 15:26:34.528  INFO 29461 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-20 15:26:34.530  INFO 29461 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-10-20 15:27:00.826  INFO 29461 --- [http-nio-8080-exec-3] a.t.task.service.impl.FlightServiceImpl  : Flights retrieved from db for origin=null, destination=null
+2023-10-20 15:27:24.406  INFO 29461 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-20 15:27:24.413  INFO 29461 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-20 15:28:53.693  INFO 29584 --- [main] airastana.test.task.FlightApplication    : Starting FlightApplication using Java 17.0.2 on MacBook-Pro-9.local with PID 29584 (/Users/madikenze/IdeaProjects/airastana/flight-service/target/classes started by madikenze in /Users/madikenze/IdeaProjects/airastana)
+2023-10-20 15:28:53.696  INFO 29584 --- [main] airastana.test.task.FlightApplication    : No active profile set, falling back to default profiles: default
+2023-10-20 15:28:54.649  INFO 29584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-10-20 15:28:54.730  INFO 29584 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77 ms. Found 3 JDBC repository interfaces.
+2023-10-20 15:28:55.329  INFO 29584 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-20 15:28:55.336  INFO 29584 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-20 15:28:55.336  INFO 29584 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2023-10-20 15:28:55.446  INFO 29584 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-20 15:28:55.447  INFO 29584 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1657 ms
+2023-10-20 15:28:55.897  INFO 29584 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-20 15:28:55.967  INFO 29584 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-20 15:28:56.138  INFO 29584 --- [main] liquibase.database                       : Set default schema name to public
+2023-10-20 15:28:56.231  INFO 29584 --- [main] liquibase.lockservice                    : Successfully acquired change log lock
+2023-10-20 15:28:56.633  INFO 29584 --- [main] liquibase.changelog                      : Reading from public.databasechangelog
+2023-10-20 15:28:56.741  INFO 29584 --- [main] liquibase.lockservice                    : Successfully released change log lock
+2023-10-20 15:28:57.375  INFO 29584 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6143b2b1, org.springframework.security.web.context.SecurityContextPersistenceFilter@2932e15f, org.springframework.security.web.header.HeaderWriterFilter@79445efb, org.springframework.security.web.authentication.logout.LogoutFilter@1e194966, airastana.test.task.auth.JwtAuthTokenFilter@632c3f55, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2375a976, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5eee3da9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@a63643e, org.springframework.security.web.session.SessionManagementFilter@5b88af70, org.springframework.security.web.access.ExceptionTranslationFilter@2b400bd0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3b25709e]
+2023-10-20 15:28:58.787  INFO 29584 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 15:28:58.799  INFO 29584 --- [main] airastana.test.task.FlightApplication    : Started FlightApplication in 5.488 seconds (JVM running for 6.2)
+2023-10-20 15:29:05.697  INFO 29584 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-20 15:29:05.699  INFO 29584 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-20 15:29:05.700  INFO 29584 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-10-20 15:29:48.121  INFO 29584 --- [http-nio-8080-exec-3] a.t.task.service.impl.FlightServiceImpl  : Flights retrieved from db for origin=null, destination=null
+2023-10-20 15:29:48.178  INFO 29584 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-20 15:29:48.183  INFO 29584 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-20 15:38:36.780  INFO 29879 --- [main] airastana.test.task.FlightApplication    : Starting FlightApplication using Java 17.0.2 on MacBook-Pro-9.local with PID 29879 (/Users/madikenze/IdeaProjects/airastana/flight-service/target/classes started by madikenze in /Users/madikenze/IdeaProjects/airastana)
+2023-10-20 15:38:36.782  INFO 29879 --- [main] airastana.test.task.FlightApplication    : No active profile set, falling back to default profiles: default
+2023-10-20 15:38:37.835  INFO 29879 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-10-20 15:38:37.935  INFO 29879 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 95 ms. Found 3 JDBC repository interfaces.
+2023-10-20 15:38:38.551  INFO 29879 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-20 15:38:38.558  INFO 29879 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-20 15:38:38.558  INFO 29879 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2023-10-20 15:38:38.692  INFO 29879 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-20 15:38:38.693  INFO 29879 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1794 ms
+2023-10-20 15:38:39.180  INFO 29879 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-20 15:38:39.254  INFO 29879 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-20 15:38:39.498  INFO 29879 --- [main] liquibase.database                       : Set default schema name to public
+2023-10-20 15:38:39.592  INFO 29879 --- [main] liquibase.lockservice                    : Successfully acquired change log lock
+2023-10-20 15:38:39.990  INFO 29879 --- [main] liquibase.changelog                      : Reading from public.databasechangelog
+2023-10-20 15:38:40.107  INFO 29879 --- [main] liquibase.lockservice                    : Successfully released change log lock
+2023-10-20 15:38:40.751  INFO 29879 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7482309c, org.springframework.security.web.context.SecurityContextPersistenceFilter@1d9bd1d6, org.springframework.security.web.header.HeaderWriterFilter@6e017950, org.springframework.security.web.authentication.logout.LogoutFilter@37364634, airastana.test.task.auth.JwtAuthTokenFilter@22aefae0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@117fb9ba, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5b88af70, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@f42336c, org.springframework.security.web.session.SessionManagementFilter@4449b273, org.springframework.security.web.access.ExceptionTranslationFilter@1dfe5dd1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3e28af44]
+2023-10-20 15:38:42.231  INFO 29879 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 15:38:42.252  INFO 29879 --- [main] airastana.test.task.FlightApplication    : Started FlightApplication in 5.888 seconds (JVM running for 6.608)
+2023-10-20 15:38:52.059  INFO 29879 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-20 15:38:52.062  INFO 29879 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-20 15:38:52.063  INFO 29879 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-10-20 15:40:30.384  INFO 29879 --- [http-nio-8080-exec-5] a.t.task.service.impl.FlightServiceImpl  : Flight status changed for flightId=9
+2023-10-20 15:42:24.786  INFO 29879 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-20 15:42:24.791  INFO 29879 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-20 15:42:41.201  INFO 29997 --- [main] airastana.test.task.FlightApplication    : Starting FlightApplication using Java 17.0.2 on MacBook-Pro-9.local with PID 29997 (/Users/madikenze/IdeaProjects/airastana/flight-service/target/classes started by madikenze in /Users/madikenze/IdeaProjects/airastana)
+2023-10-20 15:42:41.204  INFO 29997 --- [main] airastana.test.task.FlightApplication    : No active profile set, falling back to default profiles: default
+2023-10-20 15:42:42.179  INFO 29997 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-10-20 15:42:42.258  INFO 29997 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75 ms. Found 3 JDBC repository interfaces.
+2023-10-20 15:42:42.849  INFO 29997 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-20 15:42:42.856  INFO 29997 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-20 15:42:42.856  INFO 29997 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2023-10-20 15:42:42.973  INFO 29997 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-20 15:42:42.974  INFO 29997 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1676 ms
+2023-10-20 15:42:43.424  INFO 29997 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-20 15:42:43.489  INFO 29997 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-20 15:42:43.728  INFO 29997 --- [main] liquibase.database                       : Set default schema name to public
+2023-10-20 15:42:43.807  INFO 29997 --- [main] liquibase.lockservice                    : Successfully acquired change log lock
+2023-10-20 15:42:44.195  INFO 29997 --- [main] liquibase.changelog                      : Reading from public.databasechangelog
+2023-10-20 15:42:44.303  INFO 29997 --- [main] liquibase.lockservice                    : Successfully released change log lock
+2023-10-20 15:42:44.942  INFO 29997 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@43294e9b, org.springframework.security.web.context.SecurityContextPersistenceFilter@2932e15f, org.springframework.security.web.header.HeaderWriterFilter@79445efb, org.springframework.security.web.authentication.logout.LogoutFilter@1e194966, airastana.test.task.auth.JwtAuthTokenFilter@56b05bd7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2375a976, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5eee3da9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@26d24d7a, org.springframework.security.web.session.SessionManagementFilter@5b88af70, org.springframework.security.web.access.ExceptionTranslationFilter@2b400bd0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@40013051]
+2023-10-20 15:42:46.329  INFO 29997 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 15:42:46.343  INFO 29997 --- [main] airastana.test.task.FlightApplication    : Started FlightApplication in 5.515 seconds (JVM running for 6.231)
+2023-10-20 15:42:52.004  INFO 29997 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-20 15:42:52.004  INFO 29997 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-20 15:42:52.006  INFO 29997 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-10-20 15:43:16.475 ERROR 29997 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler dispatch failed; nested exception is java.lang.NoSuchMethodError: airastana.test.task.dto.FlightResponseDTO: method 'void <init>()' not found] with root cause
+
+java.lang.NoSuchMethodError: airastana.test.task.dto.FlightResponseDTO: method 'void <init>()' not found
+	at airastana.test.task.mapper.FlightMapperImpl.flightToFlightResponseDTO(FlightMapperImpl.java:22) ~[classes/:na]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[na:na]
+	at airastana.test.task.service.impl.FlightServiceImpl.getAllFlights(FlightServiceImpl.java:37) ~[classes/:na]
+	at airastana.test.task.service.impl.FlightServiceImpl$$FastClassBySpringCGLIB$$d66064cf.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.15.jar:5.3.15]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783) ~[spring-aop-5.3.15.jar:5.3.15]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.15.jar:5.3.15]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.15.jar:5.3.15]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.15.jar:5.3.15]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.15.jar:5.3.15]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.15.jar:5.3.15]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.15.jar:5.3.15]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.15.jar:5.3.15]
+	at org.springframework.cache.interceptor.CacheInterceptor.lambda$invoke$0(CacheInterceptor.java:54) ~[spring-context-5.3.15.jar:5.3.15]
+	at org.springframework.cache.interceptor.CacheAspectSupport.invokeOperation(CacheAspectSupport.java:366) ~[spring-context-5.3.15.jar:5.3.15]
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:421) ~[spring-context-5.3.15.jar:5.3.15]
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:345) ~[spring-context-5.3.15.jar:5.3.15]
+	at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheInterceptor.java:64) ~[spring-context-5.3.15.jar:5.3.15]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.15.jar:5.3.15]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.15.jar:5.3.15]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698) ~[spring-aop-5.3.15.jar:5.3.15]
+	at airastana.test.task.service.impl.FlightServiceImpl$$EnhancerBySpringCGLIB$$2bdfda00.getAllFlights(<generated>) ~[classes/:na]
+	at airastana.test.task.controller.FlightController.getFlights(FlightController.java:32) ~[classes/:na]
+	at airastana.test.task.controller.FlightController$$FastClassBySpringCGLIB$$aef916bf.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.15.jar:5.3.15]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783) ~[spring-aop-5.3.15.jar:5.3.15]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.15.jar:5.3.15]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.15.jar:5.3.15]
+	at org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:61) ~[spring-security-core-5.6.1.jar:5.6.1]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.15.jar:5.3.15]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753) ~[spring-aop-5.3.15.jar:5.3.15]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698) ~[spring-aop-5.3.15.jar:5.3.15]
+	at airastana.test.task.controller.FlightController$$EnhancerBySpringCGLIB$$9d61fbd9.getFlights(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.56.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.56.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327) ~[spring-security-web-5.6.1.jar:5.6.1]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115) ~[spring-security-web-5.6.1.jar:5.6.1]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81) ~[spring-security-web-5.6.1.jar:5.6.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.6.1.jar:5.6.1]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122) ~[spring-security-web-5.6.1.jar:5.6.1]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116) ~[spring-security-web-5.6.1.jar:5.6.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.6.1.jar:5.6.1]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126) ~[spring-security-web-5.6.1.jar:5.6.1]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81) ~[spring-security-web-5.6.1.jar:5.6.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.6.1.jar:5.6.1]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109) ~[spring-security-web-5.6.1.jar:5.6.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.6.1.jar:5.6.1]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149) ~[spring-security-web-5.6.1.jar:5.6.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.6.1.jar:5.6.1]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-5.6.1.jar:5.6.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.6.1.jar:5.6.1]
+	at airastana.test.task.auth.JwtAuthTokenFilter.doFilterInternal(JwtAuthTokenFilter.java:49) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.6.1.jar:5.6.1]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.6.1.jar:5.6.1]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.6.1.jar:5.6.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.6.1.jar:5.6.1]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.6.1.jar:5.6.1]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.6.1.jar:5.6.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.6.1.jar:5.6.1]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) ~[spring-security-web-5.6.1.jar:5.6.1]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) ~[spring-security-web-5.6.1.jar:5.6.1]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.6.1.jar:5.6.1]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.6.1.jar:5.6.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.6.1.jar:5.6.1]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) ~[spring-security-web-5.6.1.jar:5.6.1]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) ~[spring-security-web-5.6.1.jar:5.6.1]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-10-20 15:47:49.120  INFO 29997 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-20 15:47:49.127  INFO 29997 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-20 15:47:58.529  INFO 30246 --- [main] airastana.test.task.FlightApplication    : Starting FlightApplication using Java 17.0.2 on MacBook-Pro-9.local with PID 30246 (/Users/madikenze/IdeaProjects/airastana/flight-service/target/classes started by madikenze in /Users/madikenze/IdeaProjects/airastana)
+2023-10-20 15:47:58.531  INFO 30246 --- [main] airastana.test.task.FlightApplication    : No active profile set, falling back to default profiles: default
+2023-10-20 15:47:59.531  INFO 30246 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-10-20 15:47:59.629  INFO 30246 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93 ms. Found 3 JDBC repository interfaces.
+2023-10-20 15:48:00.216  INFO 30246 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-20 15:48:00.223  INFO 30246 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-20 15:48:00.223  INFO 30246 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2023-10-20 15:48:00.337  INFO 30246 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-20 15:48:00.338  INFO 30246 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1692 ms
+2023-10-20 15:48:00.762  INFO 30246 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-20 15:48:00.826  INFO 30246 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-20 15:48:01.075  INFO 30246 --- [main] liquibase.database                       : Set default schema name to public
+2023-10-20 15:48:01.160  INFO 30246 --- [main] liquibase.lockservice                    : Successfully acquired change log lock
+2023-10-20 15:48:01.629  INFO 30246 --- [main] liquibase.changelog                      : Reading from public.databasechangelog
+2023-10-20 15:48:01.738  INFO 30246 --- [main] liquibase.lockservice                    : Successfully released change log lock
+2023-10-20 15:48:02.373  INFO 30246 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@40013051, org.springframework.security.web.context.SecurityContextPersistenceFilter@5b88af70, org.springframework.security.web.header.HeaderWriterFilter@2b400bd0, org.springframework.security.web.authentication.logout.LogoutFilter@2c154508, airastana.test.task.auth.JwtAuthTokenFilter@632c3f55, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2932e15f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@bb6869a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@71f29d91, org.springframework.security.web.session.SessionManagementFilter@3b66ac74, org.springframework.security.web.access.ExceptionTranslationFilter@237aa0c7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@f42336c]
+2023-10-20 15:48:03.708  INFO 30246 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 15:48:03.722  INFO 30246 --- [main] airastana.test.task.FlightApplication    : Started FlightApplication in 5.595 seconds (JVM running for 6.352)
+2023-10-20 15:48:08.604  INFO 30246 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-20 15:48:08.604  INFO 30246 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-20 15:48:08.605  INFO 30246 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-10-20 15:55:44.658  INFO 30246 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-20 15:55:44.664  INFO 30246 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-20 15:56:55.680  INFO 30540 --- [main] airastana.test.task.FlightApplication    : Starting FlightApplication using Java 17.0.2 on MacBook-Pro-9.local with PID 30540 (/Users/madikenze/IdeaProjects/airastana/flight-service/target/classes started by madikenze in /Users/madikenze/IdeaProjects/airastana)
+2023-10-20 15:56:55.683  INFO 30540 --- [main] airastana.test.task.FlightApplication    : No active profile set, falling back to default profiles: default
+2023-10-20 15:56:56.651  INFO 30540 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-10-20 15:56:56.754  INFO 30540 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 98 ms. Found 3 JDBC repository interfaces.
+2023-10-20 15:56:57.382  INFO 30540 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-20 15:56:57.390  INFO 30540 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-20 15:56:57.391  INFO 30540 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2023-10-20 15:56:57.501  INFO 30540 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-20 15:56:57.501  INFO 30540 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1712 ms
+2023-10-20 15:56:57.943  INFO 30540 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-20 15:56:58.002  INFO 30540 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-20 15:56:58.240  INFO 30540 --- [main] liquibase.database                       : Set default schema name to public
+2023-10-20 15:56:58.320  INFO 30540 --- [main] liquibase.lockservice                    : Successfully acquired change log lock
+2023-10-20 15:56:58.690  INFO 30540 --- [main] liquibase.changelog                      : Reading from public.databasechangelog
+2023-10-20 15:56:58.794  INFO 30540 --- [main] liquibase.lockservice                    : Successfully released change log lock
+2023-10-20 15:56:59.441  INFO 30540 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@a63643e, org.springframework.security.web.context.SecurityContextPersistenceFilter@3d98729a, org.springframework.security.web.header.HeaderWriterFilter@1592e540, org.springframework.security.web.authentication.logout.LogoutFilter@160546b1, airastana.test.task.auth.JwtAuthTokenFilter@20faaf77, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4bc21e34, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@ace2408, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@43294e9b, org.springframework.security.web.session.SessionManagementFilter@2739ecc0, org.springframework.security.web.access.ExceptionTranslationFilter@fceab5d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5ec6a1b6]
+2023-10-20 15:57:00.802  INFO 30540 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 15:57:00.816  INFO 30540 --- [main] airastana.test.task.FlightApplication    : Started FlightApplication in 5.547 seconds (JVM running for 6.335)
+2023-10-20 15:57:05.433  INFO 30540 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-20 15:57:05.435  INFO 30540 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-20 15:57:05.436  INFO 30540 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-10-20 15:57:53.840  INFO 30540 --- [http-nio-8080-exec-7] a.t.task.service.impl.FlightServiceImpl  : Flight status changed for flightId=9
+2023-10-20 16:01:34.588  INFO 30540 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-20 16:01:34.594  INFO 30540 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-20 16:01:40.487  INFO 30701 --- [main] airastana.test.task.FlightApplication    : Starting FlightApplication using Java 17.0.2 on MacBook-Pro-9.local with PID 30701 (/Users/madikenze/IdeaProjects/airastana/flight-service/target/classes started by madikenze in /Users/madikenze/IdeaProjects/airastana)
+2023-10-20 16:01:40.489  INFO 30701 --- [main] airastana.test.task.FlightApplication    : No active profile set, falling back to default profiles: default
+2023-10-20 16:01:41.527  INFO 30701 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-10-20 16:01:41.626  INFO 30701 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94 ms. Found 3 JDBC repository interfaces.
+2023-10-20 16:01:42.208  INFO 30701 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-20 16:01:42.214  INFO 30701 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-20 16:01:42.214  INFO 30701 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2023-10-20 16:01:42.327  INFO 30701 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-20 16:01:42.328  INFO 30701 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1736 ms
+2023-10-20 16:01:42.801  INFO 30701 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-20 16:01:42.862  INFO 30701 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-20 16:01:43.110  INFO 30701 --- [main] liquibase.database                       : Set default schema name to public
+2023-10-20 16:01:43.237  INFO 30701 --- [main] liquibase.lockservice                    : Successfully acquired change log lock
+2023-10-20 16:01:43.679  INFO 30701 --- [main] liquibase.changelog                      : Reading from public.databasechangelog
+2023-10-20 16:01:43.794  INFO 30701 --- [main] liquibase.lockservice                    : Successfully released change log lock
+2023-10-20 16:01:44.461  INFO 30701 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@686e7513, org.springframework.security.web.context.SecurityContextPersistenceFilter@237aa0c7, org.springframework.security.web.header.HeaderWriterFilter@5896b9f5, org.springframework.security.web.authentication.logout.LogoutFilter@708f7386, airastana.test.task.auth.JwtAuthTokenFilter@350f18a6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2b400bd0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4449b273, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@47eae91d, org.springframework.security.web.session.SessionManagementFilter@6ffbf0ac, org.springframework.security.web.access.ExceptionTranslationFilter@7fb82f73, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@69c1ea07]
+2023-10-20 16:01:45.929  INFO 30701 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 16:01:45.943  INFO 30701 --- [main] airastana.test.task.FlightApplication    : Started FlightApplication in 5.896 seconds (JVM running for 7.013)
+2023-10-20 16:02:47.915  INFO 30701 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-20 16:02:47.918  INFO 30701 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-20 16:02:47.922  INFO 30701 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2023-10-20 16:02:59.040  INFO 30701 --- [http-nio-8080-exec-3] a.t.task.service.impl.FlightServiceImpl  : [Flight{id=null, origin='null', destination='null', departure=null, arrival=null, status='null'}, Flight{id=null, origin='null', destination='null', departure=null, arrival=null, status='null'}, Flight{id=null, origin='null', destination='null', departure=null, arrival=null, status='null'}, Flight{id=null, origin='null', destination='null', departure=null, arrival=null, status='null'}, Flight{id=null, origin='null', destination='null', departure=null, arrival=null, status='null'}, Flight{id=null, origin='null', destination='null', departure=null, arrival=null, status='null'}, Flight{id=null, origin='null', destination='null', departure=null, arrival=null, status='null'}, Flight{id=null, origin='null', destination='null', departure=null, arrival=null, status='null'}]
+2023-10-20 16:05:13.879  INFO 30701 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-20 16:05:13.886  INFO 30701 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-20 16:05:18.415  INFO 30840 --- [main] airastana.test.task.FlightApplication    : Starting FlightApplication using Java 17.0.2 on MacBook-Pro-9.local with PID 30840 (/Users/madikenze/IdeaProjects/airastana/flight-service/target/classes started by madikenze in /Users/madikenze/IdeaProjects/airastana)
+2023-10-20 16:05:18.416  INFO 30840 --- [main] airastana.test.task.FlightApplication    : No active profile set, falling back to default profiles: default
+2023-10-20 16:05:19.390  INFO 30840 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-10-20 16:05:19.474  INFO 30840 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80 ms. Found 3 JDBC repository interfaces.
+2023-10-20 16:05:20.054  INFO 30840 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-20 16:05:20.061  INFO 30840 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-20 16:05:20.061  INFO 30840 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2023-10-20 16:05:20.172  INFO 30840 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-20 16:05:20.174  INFO 30840 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1662 ms
+2023-10-20 16:05:20.635  INFO 30840 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-20 16:05:20.697  INFO 30840 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-20 16:05:20.956  INFO 30840 --- [main] liquibase.database                       : Set default schema name to public
+2023-10-20 16:05:21.032  INFO 30840 --- [main] liquibase.lockservice                    : Successfully acquired change log lock
+2023-10-20 16:05:21.442  INFO 30840 --- [main] liquibase.changelog                      : Reading from public.databasechangelog
+2023-10-20 16:05:21.550  INFO 30840 --- [main] liquibase.lockservice                    : Successfully released change log lock
+2023-10-20 16:05:22.178  INFO 30840 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6143b2b1, org.springframework.security.web.context.SecurityContextPersistenceFilter@5b88af70, org.springframework.security.web.header.HeaderWriterFilter@2b400bd0, org.springframework.security.web.authentication.logout.LogoutFilter@2c154508, airastana.test.task.auth.JwtAuthTokenFilter@56b05bd7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2932e15f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@bb6869a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@a63643e, org.springframework.security.web.session.SessionManagementFilter@3b66ac74, org.springframework.security.web.access.ExceptionTranslationFilter@237aa0c7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3b25709e]
+2023-10-20 16:05:23.591  INFO 30840 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 16:05:23.605  INFO 30840 --- [main] airastana.test.task.FlightApplication    : Started FlightApplication in 5.553 seconds (JVM running for 6.267)
+2023-10-20 16:05:32.146  INFO 30840 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-20 16:05:32.147  INFO 30840 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-20 16:05:32.149  INFO 30840 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-10-20 16:05:42.868  INFO 30840 --- [http-nio-8080-exec-3] a.t.task.service.impl.FlightServiceImpl  : [Flight{id=null, origin='null', destination='null', departure=null, arrival=null, status='null'}, Flight{id=null, origin='null', destination='null', departure=null, arrival=null, status='null'}, Flight{id=null, origin='null', destination='null', departure=null, arrival=null, status='null'}, Flight{id=null, origin='null', destination='null', departure=null, arrival=null, status='null'}, Flight{id=null, origin='null', destination='null', departure=null, arrival=null, status='null'}, Flight{id=null, origin='null', destination='null', departure=null, arrival=null, status='null'}, Flight{id=null, origin='null', destination='null', departure=null, arrival=null, status='null'}, Flight{id=null, origin='null', destination='null', departure=null, arrival=null, status='null'}]
+2023-10-20 16:06:01.944  INFO 30840 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-20 16:06:01.947  INFO 30840 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-20 16:06:06.523  INFO 30883 --- [main] airastana.test.task.FlightApplication    : Starting FlightApplication using Java 17.0.2 on MacBook-Pro-9.local with PID 30883 (/Users/madikenze/IdeaProjects/airastana/flight-service/target/classes started by madikenze in /Users/madikenze/IdeaProjects/airastana)
+2023-10-20 16:06:06.525  INFO 30883 --- [main] airastana.test.task.FlightApplication    : No active profile set, falling back to default profiles: default
+2023-10-20 16:06:07.486  INFO 30883 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-10-20 16:06:07.566  INFO 30883 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77 ms. Found 3 JDBC repository interfaces.
+2023-10-20 16:06:08.139  INFO 30883 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-20 16:06:08.145  INFO 30883 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-20 16:06:08.145  INFO 30883 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2023-10-20 16:06:08.251  INFO 30883 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-20 16:06:08.252  INFO 30883 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1632 ms
+2023-10-20 16:06:08.738  INFO 30883 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-20 16:06:08.795  INFO 30883 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-20 16:06:08.952  INFO 30883 --- [main] liquibase.database                       : Set default schema name to public
+2023-10-20 16:06:09.040  INFO 30883 --- [main] liquibase.lockservice                    : Successfully acquired change log lock
+2023-10-20 16:06:09.456  INFO 30883 --- [main] liquibase.changelog                      : Reading from public.databasechangelog
+2023-10-20 16:06:09.578  INFO 30883 --- [main] liquibase.lockservice                    : Successfully released change log lock
+2023-10-20 16:06:10.193  INFO 30883 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7482309c, org.springframework.security.web.context.SecurityContextPersistenceFilter@1d9bd1d6, org.springframework.security.web.header.HeaderWriterFilter@6e017950, org.springframework.security.web.authentication.logout.LogoutFilter@37364634, airastana.test.task.auth.JwtAuthTokenFilter@21abda60, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@117fb9ba, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5b88af70, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@f42336c, org.springframework.security.web.session.SessionManagementFilter@4449b273, org.springframework.security.web.access.ExceptionTranslationFilter@1dfe5dd1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3e28af44]
+2023-10-20 16:06:11.560  INFO 30883 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 16:06:11.572  INFO 30883 --- [main] airastana.test.task.FlightApplication    : Started FlightApplication in 5.42 seconds (JVM running for 6.154)
+2023-10-20 16:06:29.369  INFO 30883 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-20 16:06:29.370  INFO 30883 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-20 16:06:29.372  INFO 30883 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-10-20 16:06:46.748  INFO 30883 --- [http-nio-8080-exec-3] a.t.task.service.impl.FlightServiceImpl  : [Flight{id=null, origin='null', destination='null', departure=null, arrival=null, status='null'}, Flight{id=null, origin='null', destination='null', departure=null, arrival=null, status='null'}, Flight{id=null, origin='null', destination='null', departure=null, arrival=null, status='null'}, Flight{id=null, origin='null', destination='null', departure=null, arrival=null, status='null'}, Flight{id=null, origin='null', destination='null', departure=null, arrival=null, status='null'}, Flight{id=null, origin='null', destination='null', departure=null, arrival=null, status='null'}, Flight{id=null, origin='null', destination='null', departure=null, arrival=null, status='null'}, Flight{id=null, origin='null', destination='null', departure=null, arrival=null, status='null'}]
+2023-10-20 16:07:35.899  INFO 30883 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-20 16:07:35.903  INFO 30883 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-20 16:07:40.666  INFO 30936 --- [main] airastana.test.task.FlightApplication    : Starting FlightApplication using Java 17.0.2 on MacBook-Pro-9.local with PID 30936 (/Users/madikenze/IdeaProjects/airastana/flight-service/target/classes started by madikenze in /Users/madikenze/IdeaProjects/airastana)
+2023-10-20 16:07:40.668  INFO 30936 --- [main] airastana.test.task.FlightApplication    : No active profile set, falling back to default profiles: default
+2023-10-20 16:07:41.697  INFO 30936 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-10-20 16:07:41.808  INFO 30936 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 106 ms. Found 3 JDBC repository interfaces.
+2023-10-20 16:07:42.408  INFO 30936 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-20 16:07:42.415  INFO 30936 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-20 16:07:42.415  INFO 30936 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2023-10-20 16:07:42.521  INFO 30936 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-20 16:07:42.522  INFO 30936 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1732 ms
+2023-10-20 16:07:42.962  INFO 30936 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-20 16:07:43.020  INFO 30936 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-20 16:07:43.249  INFO 30936 --- [main] liquibase.database                       : Set default schema name to public
+2023-10-20 16:07:43.335  INFO 30936 --- [main] liquibase.lockservice                    : Successfully acquired change log lock
+2023-10-20 16:07:43.720  INFO 30936 --- [main] liquibase.changelog                      : Reading from public.databasechangelog
+2023-10-20 16:07:43.832  INFO 30936 --- [main] liquibase.lockservice                    : Successfully released change log lock
+2023-10-20 16:07:44.473  INFO 30936 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7672960e, org.springframework.security.web.context.SecurityContextPersistenceFilter@5eee3da9, org.springframework.security.web.header.HeaderWriterFilter@117fb9ba, org.springframework.security.web.authentication.logout.LogoutFilter@3355b8ff, airastana.test.task.auth.JwtAuthTokenFilter@3d53e876, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3573e19d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@708f7386, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@69bca406, org.springframework.security.web.session.SessionManagementFilter@bb6869a, org.springframework.security.web.access.ExceptionTranslationFilter@1d9bd1d6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@26d24d7a]
+2023-10-20 16:07:45.742  INFO 30936 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 16:07:45.758  INFO 30936 --- [main] airastana.test.task.FlightApplication    : Started FlightApplication in 5.47 seconds (JVM running for 6.21)
+2023-10-20 16:07:54.258  INFO 30936 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-20 16:07:54.258  INFO 30936 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-20 16:07:54.260  INFO 30936 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-10-20 16:08:06.260  INFO 30936 --- [http-nio-8080-exec-3] a.t.task.service.impl.FlightServiceImpl  : [Flight{id=2, origin='Los Angeles', destination='Chicago', departure=2023-10-21T09:00Z, arrival=2023-10-21T11:30Z, status='Delayed'}, Flight{id=3, origin='Chicago', destination='Miami', departure=2023-10-22T10:30Z, arrival=2023-10-22T13:15Z, status='InTime'}, Flight{id=4, origin='Miami', destination='Dallas', departure=2023-10-23T08:30Z, arrival=2023-10-23T10:45Z, status='InTime'}, Flight{id=5, origin='Dallas', destination='Denver', departure=2023-10-24T11:15Z, arrival=2023-10-24T12:45Z, status='Cancelled'}, Flight{id=6, origin='Almaty', destination='Istanbul', departure=2023-10-19T00:00Z, arrival=2023-10-19T07:00Z, status='InTime'}, Flight{id=1, origin='New York', destination='Los Angeles', departure=2023-10-20T08:00Z, arrival=2023-10-20T11:00Z, status='InTime'}, Flight{id=10, origin='Almaty', destination='Beijing', departure=2023-10-19T00:00Z, arrival=2023-10-19T07:00Z, status='InTime'}, Flight{id=9, origin='Almaty', destination='Antalya', departure=2023-10-19T00:00Z, arrival=2023-10-19T07:00Z, status='Delayed'}]
+2023-10-20 16:09:23.908  INFO 30936 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-20 16:09:23.913  INFO 30936 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-20 16:09:34.176  INFO 30999 --- [main] airastana.test.task.FlightApplication    : Starting FlightApplication using Java 17.0.2 on MacBook-Pro-9.local with PID 30999 (/Users/madikenze/IdeaProjects/airastana/flight-service/target/classes started by madikenze in /Users/madikenze/IdeaProjects/airastana)
+2023-10-20 16:09:34.179  INFO 30999 --- [main] airastana.test.task.FlightApplication    : No active profile set, falling back to default profiles: default
+2023-10-20 16:09:35.145  INFO 30999 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-10-20 16:09:35.223  INFO 30999 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75 ms. Found 3 JDBC repository interfaces.
+2023-10-20 16:09:35.810  INFO 30999 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-20 16:09:35.816  INFO 30999 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-20 16:09:35.817  INFO 30999 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2023-10-20 16:09:35.933  INFO 30999 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-20 16:09:35.934  INFO 30999 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1677 ms
+2023-10-20 16:09:36.399  INFO 30999 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-20 16:09:36.469  INFO 30999 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-20 16:09:36.701  INFO 30999 --- [main] liquibase.database                       : Set default schema name to public
+2023-10-20 16:09:36.772  INFO 30999 --- [main] liquibase.lockservice                    : Successfully acquired change log lock
+2023-10-20 16:09:37.177  INFO 30999 --- [main] liquibase.changelog                      : Reading from public.databasechangelog
+2023-10-20 16:09:37.314  INFO 30999 --- [main] liquibase.lockservice                    : Successfully released change log lock
+2023-10-20 16:09:37.939  INFO 30999 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@27fc0217, org.springframework.security.web.context.SecurityContextPersistenceFilter@6ffbf0ac, org.springframework.security.web.header.HeaderWriterFilter@7fb82f73, org.springframework.security.web.authentication.logout.LogoutFilter@5178345d, airastana.test.task.auth.JwtAuthTokenFilter@1c4057f9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@237aa0c7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1592e540, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@e993715, org.springframework.security.web.session.SessionManagementFilter@1d06801f, org.springframework.security.web.access.ExceptionTranslationFilter@7ac1b6c0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2fea9a7b]
+2023-10-20 16:09:39.275  INFO 30999 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 16:09:39.289  INFO 30999 --- [main] airastana.test.task.FlightApplication    : Started FlightApplication in 5.489 seconds (JVM running for 6.197)
+2023-10-20 16:16:02.741  INFO 30999 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-20 16:16:02.758  INFO 30999 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-20 16:16:13.034  INFO 31328 --- [main] airastana.test.task.FlightApplication    : Starting FlightApplication using Java 17.0.2 on MacBook-Pro-9.local with PID 31328 (/Users/madikenze/IdeaProjects/airastana/flight-service/target/classes started by madikenze in /Users/madikenze/IdeaProjects/airastana)
+2023-10-20 16:16:13.037  INFO 31328 --- [main] airastana.test.task.FlightApplication    : No active profile set, falling back to default profiles: default
+2023-10-20 16:16:13.979  INFO 31328 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-10-20 16:16:14.059  INFO 31328 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 3 JDBC repository interfaces.
+2023-10-20 16:16:14.869  INFO 31328 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-10-20 16:16:14.876  INFO 31328 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-20 16:16:14.877  INFO 31328 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2023-10-20 16:16:14.953  INFO 31328 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-20 16:16:14.953  INFO 31328 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1826 ms
+2023-10-20 16:16:15.455  INFO 31328 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-20 16:16:15.528  INFO 31328 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-20 16:16:15.708  INFO 31328 --- [main] liquibase.database                       : Set default schema name to public
+2023-10-20 16:16:15.814  INFO 31328 --- [main] liquibase.lockservice                    : Successfully acquired change log lock
+2023-10-20 16:16:16.198  INFO 31328 --- [main] liquibase.changelog                      : Reading from public.databasechangelog
+2023-10-20 16:16:16.320  INFO 31328 --- [main] liquibase.lockservice                    : Successfully released change log lock
+2023-10-20 16:16:17.002  INFO 31328 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7614378d, org.springframework.security.web.context.SecurityContextPersistenceFilter@51297528, org.springframework.security.web.header.HeaderWriterFilter@7ec5aad, org.springframework.security.web.authentication.logout.LogoutFilter@77fceac6, airastana.test.task.auth.JwtAuthTokenFilter@588d630d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1df9f7c6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3c98981e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7028b5cc, org.springframework.security.web.session.SessionManagementFilter@4ce18cec, org.springframework.security.web.access.ExceptionTranslationFilter@11ce9319, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5d22ed6c]
+2023-10-20 16:16:18.434  INFO 31328 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-20 16:16:18.468  INFO 31328 --- [main] airastana.test.task.FlightApplication    : Started FlightApplication in 5.849 seconds (JVM running for 6.594)
+2023-10-20 16:16:30.091  INFO 31328 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-20 16:16:30.092  INFO 31328 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-20 16:16:30.097  INFO 31328 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2023-10-20 16:17:06.691  INFO 31328 --- [http-nio-8080-exec-4] a.t.task.service.impl.FlightServiceImpl  : flight : Flight{id=11, origin='Almaty', destination='London', departure=2023-10-19T00:00Z, arrival=2023-10-19T07:00Z, status='InTime'} successfully added
+2023-10-20 16:18:04.223  INFO 31328 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-20 16:18:04.227  INFO 31328 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
