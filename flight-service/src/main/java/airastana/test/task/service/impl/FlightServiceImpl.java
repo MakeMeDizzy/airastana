@@ -45,6 +45,8 @@ public class FlightServiceImpl implements FlightService {
         flight.setDeparture(dto.getDeparture());
         flight.setArrival(dto.getArrival());
         flight.setStatus(dto.getFlightStatus().getStatus());
+        System.out.println(flight);
+        System.out.println("Hello, flight");
         flightRepository.save(flight);
         log.info("flight : {} successfully added", flight);
     }
