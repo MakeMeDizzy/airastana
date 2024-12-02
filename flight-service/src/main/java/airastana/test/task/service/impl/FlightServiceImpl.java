@@ -61,4 +61,9 @@ public class FlightServiceImpl implements FlightService {
         flightRepository.save(flight);
         log.info("Flight status changed for flightId = {}", flightId);
     }
+
+    @Override
+    public void deleteFlight(Long flightId) {
+        System.out.println("deletion");
+    }
 }
