@@ -10,4 +10,6 @@ public interface FlightService {
     List<FlightResponseDTO> getAllFlights(String origin, String destination);
     void addFlight(FlightDTO dto);
     void changeStatus(FlightStatus flightStatus, Long flightId);
+
+    void deleteFlight(Long flightId);
 }
